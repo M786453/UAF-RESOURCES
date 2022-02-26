@@ -1,0 +1,13 @@
+The desktop includes these panels:
+
+* Current Folder — Access your files.
+
+* Command Window — Enter commands at the command line, indicated by the prompt (>>).
+
+* Workspace — Explore data that you create or import from files.
+
+* When you do not specify an output variable, MATLAB uses the variable ans, short for answer, to store the results of your calculation.
+
+* If you end a statement with a semicolon, MATLAB performs the computation, but suppresses the display of output in the Command Window.
+
+* You can recall previous commands by pressing the up- and down-arrow keys, ↑ and ↓. 

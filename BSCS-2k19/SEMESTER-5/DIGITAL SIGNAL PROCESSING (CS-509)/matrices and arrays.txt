@@ -1,0 +1,46 @@
+* MATLAB is an abbreviation for "matrix laboratory."
+* MATLAB® is designed to operate primarily on whole matrices and arrays.
+* All MATLAB variables are multidimensional arrays
+* A matrix is a two-dimensional array often used for linear algebra.
+* To create an array with four elements in a single row, separate the elements with either a comma (,) or a space.
+* An array which contains only one row is a row vector.
+* To create a matrix that has multiple rows, separate the rows with semicolons.
+* Another way to create a matrix is to use a function, such as ones, zeros, or rand.
+* MATLAB allows you to process all of the values in a matrix using a single arithmetic operator or function.
+* To transpose a matrix, use a single quote ('): a'
+* MATLAB stores numbers as floating-point values, and arithmetic operations are sensitive to small differences between the actual value and its floating-point representation. You can display more decimal digits using the format command:
+format long
+p = a*inv(a)
+
+* Reset the display to the shorter format using
+
+format short
+
+* To perform element-wise multiplication rather than matrix multiplication, use the .* operator:
+
+p = a.*a
+
+* raise each element of a to the third power:
+
+a.^3
+
+* Concatenation is the process of joining arrays to make larger ones.
+
+*  In fact, you made your first array by concatenating its individual elements
+
+*  The pair of square brackets [] is the concatenation operator.
+
+* Concatenating arrays next to one another using commas is called horizontal concatenation
+ Each array must have the same number of rows
+
+*  when the arrays have the same number of columns, you can concatenate vertically using semicolons.
+
+A = [a; a]
+
+
+* Complex numbers have both real and imaginary parts, where the imaginary unit is the square root of -1.
+sqrt(-1)
+ans = 0.0000 + 1.0000i
+
+* To represent the imaginary part of complex numbers, use either i or j.
+

@@ -1,0 +1,4 @@
+*  matrix-based MATLAB language
+* used for the anaylyses of data
+* natural way to express computational mathematics
+*  MATLAB code can be integrated with other languages, enabling you to deploy algorithms and applications within web, enterprise, and production systems.
