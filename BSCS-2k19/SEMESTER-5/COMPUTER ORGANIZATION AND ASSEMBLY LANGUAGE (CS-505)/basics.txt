@@ -1,0 +1,56 @@
+.386
+
+Enables assembly of nonprivileged instructions for the 
+80386 processor; disables assembly of instructions
+ introduced with later processors. (32-bit MASM only.)
+
+.model
+
+Initializes the program memory model. (32-bit MASM only.)
+
+Syntax:
+.MODEL memory-model ⟦, language-type⟧ ⟦, stack-option⟧
+
+memory-model
+Required parameter that determines the size of code and data pointers.
+
+language-type
+Optional parameter that sets the calling and naming conventions for procedures and public symbols.
+
+stack-option
+Optional parameter.
+
+stack-option is not used if memory-model is FLAT.
+
+
+.stack
+
+When used with .MODEL, defines a stack segment (with segment 
+name STACK). The optional size specifies the number of bytes 
+for the stack (default 1,024). The .STACK directive 
+automatically closes the stack statement. (32-bit MASM only.)
+
+END
+
+Marks the end of a module and, optionally, 
+sets the program entry point to procId.
+
+ENDP
+
+Marks the end of procedure name 
+previously begun with PROC.
+
+name ENDP
+
+PROC
+
+Marks start and end of a procedure block called label. 
+The statements in the block can be called with the 
+CALL instruction or INVOKE directive.
+
+SYNTAX
+
+label PROC ⟦distance⟧ ⟦language-type⟧ ⟦ PUBLIC | PRIVATE | EXPORT ⟧ ⟦<prologuearg>⟧ ⟦USES reglist⟧ ⟦, parameter ⟦:tag⟧ ...⟧
+⟦FRAME ⟦:ehandler-address⟧ ⟧
+statements
+label ENDP
