@@ -1,0 +1,136 @@
+	
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int num;
+   FILE *fptr;
+   char *ch[1000];
+
+   if ((fptr = fopen("program.txt","r")) == NULL){
+       printf("Error! opening file");
+
+       // Program exits if the file pointer returns NULL.
+       exit(1);
+   }
+
+   fscanf(fptr,"%s", &ch); //copy number from file into variable 
+
+   printf("Value of n=%s \n ", ch);
+
+   fclose(fptr); //close file
+
+getchar();
+  
+   return 0;
+}
+====================
+#include <stdio.h>
+	#include<stdlib.h>
+	void main()
+	{
+	char ch;
+	FILE *fp;
+	fp=fopen("program.txt","a");
+
+		int inc=0;
+	while(!feof(fp))
+	{
+	ch=getc(fp);
+		if (ch=='A')
+		{
+			inc++;
+		printf(" \n We caught \n%c  for %d times",ch,inc);
+		
+
+		}
+	printf("\n %c",ch);
+	}
+
+	getchar();
+
+	exit (0);
+	}
+
+
+
+=====================================
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int num;
+   FILE *fptr; 
+  char name[50];
+   int marks, i, num;
+
+   printf("Enter number of students: ");
+   scanf("%d", &num);
+   
+ fptr = (fopen("program.txt","r", "w"));
+ 
+  if(fptr == NULL)
+   {
+       printf("Error!");
+       exit(1);
+   }
+
+
+for(i = 0; i < num; ++i)
+   {
+      printf("For student%d\nEnter name: ", i+1);
+      scanf("%s", name);
+
+      printf("Enter marks: ");
+      scanf("%d", &marks);
+
+      fprintf(fptr,"\nName: %s \nMarks=%d \n", name, marks);
+
+}
+   fclose(fptr);
+   return 0;
+
+}
+=================================================
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int num;
+   FILE *fptr; 
+  char name[50];
+   int marks, i, num;
+
+   printf("Enter number of students: ");
+   scanf("%d", &num);
+   
+ fptr = (fopen("program.txt","r", "w"));
+ 
+  if(fptr == NULL)
+   {
+       printf("Error!");
+       exit(1);
+   }
+
+
+for(i = 0; i < num; ++i)
+   {
+      printf("For student%d\nEnter name: ", i+1);
+      scanf("%s", name);
+
+      printf("Enter marks: ");
+      scanf("%d", &marks);
+
+      fprintf(fptr,"\nName: %s \nMarks=%d \n", name, marks);
+
+}
+   fclose(fptr);
+   return 0;
+
+}
+==================================================
+
