@@ -1,0 +1,35 @@
+*Bidirectional Search Technique:
+
+= extension of BFS and DFS
+
+= two simultaneous search 
+from an initial node to goal
+and backward from goal to
+initial node, and stopping
+when two meet.
+
+= time complexity:
+   2(b ki power d/2)
+- b - is branching factor
+- d - depth
+	in general:
+wrost case= O ( b ki power d)
+= space complexity:
+	no. of nodes traversed
+	O ( b ki power d)
+= complete in BFS
+= not complete in DFS
+
+= WHY WE SHOULD USE THE 
+BIDIRECTIONAL SEARCH?WHAT IS THE
+ADVANTAGE OF BIDIRECTIONAL SEARCH?
+we use bidirectional search 
+becasue the time complexity is
+lesser than BFS and DFS.
+
+* in DFS, we go deepest until 
+nodes are finished or desired 
+node is found. when nodes are 
+finished in particular direction
+then DFS will do backtrack and 
+finda node.

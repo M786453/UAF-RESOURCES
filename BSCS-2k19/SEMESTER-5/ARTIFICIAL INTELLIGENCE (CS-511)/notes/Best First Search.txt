@@ -1,0 +1,33 @@
+Best First Search (Informed,
+Heuristic):
+
+* follow greedy technique
+*Informed Search Technique
+*let 'open' be a priority queue 
+containing initial state
+(we give the priority to a node
+accodring to its heuristic value)
+
+* loop
+	if open is empty return failure
+	else
+		node <- remove first(open)
+		if node is a goal
+		then return the path from initial to node
+		else
+			generate allsuccessors of node and
+			put the newly generated node into 
+			open according to their heuristic values
+
+* add nodes in queue according to their
+heuristic values in ascending order
+
+* always give good solution but
+may or may not give optimal solution
+
+* less time complexity
+
+* in worst case, BEST FIRST SEARCH
+can also have time complexity of
+O(b ki power d) just same as for
+BFS and DFS of uniformed search.

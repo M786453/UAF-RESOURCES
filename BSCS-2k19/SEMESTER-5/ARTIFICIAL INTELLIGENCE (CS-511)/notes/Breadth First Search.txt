@@ -1,0 +1,54 @@
+BFS (BREADTH FIRST SEARCH):
+
+*Uninformed Search Technique
+*no prior knowledge
+*not know about when we will
+get to the goal state
+*Bruteforce or blind technique
+*FIFO(Queue)
+*Shallowest Node
+*Complete (mean it will always
+give answer)
+*tree or graph
+*search is level wise
+*also known as level search 
+technique
+*shallowest node -> mean last
+node in horizontal axis
+* in queue we add elements 
+to end of queue and remove elements 
+from front of queue
+* will definitely found the
+desired element
+* if we are searched for
+a specific element, then 
+we will check its parent 
+pointers in order to get
+path of that element.
+* OPTIMAL ( mean will always give you the
+shortest result )
+* TIEM COMPLEXITY 
+ O(V + E) ->This time 
+complexity is used in
+data structures and algorithms
+where 
+V -> is the number of nodes
+E -> is the number of edges
+
+In artificial intelligence,
+time complexity of bfs is 
+written as:
+O(b ki power d)
+where
+b -> branching factor (mean
+no. of children of a 
+particular node)
+d -> depth
+
+* depth is calculated by
+incrementing 1 in 0 for every
+horizontal level
+
+* if cost of nodes is different
+then we don't use BFS then we
+will use A* alogrithm(heuristic)

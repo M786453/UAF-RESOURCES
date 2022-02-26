@@ -1,0 +1,37 @@
+WHAT IS HEURISTIC IN AI 
+(Rule of thumb)?
+Heuristic -> Guess
+
+* It is a technique designed 
+to solve a problem quickly
+
+* non-ponimial problem mn time
+complexity exponential ha
+
+* follow greedy technique
+
+* always provide good solution
+but may or may not provide optimal
+solution
+
+* when we want to solve a non-
+ponimal problem in polynomial time
+then we use Heuristic search.
+
+* we use heuristic technique when
+we want the solution quickly
+
+* quick solution
+
+* eucledian distance -> straight 
+line distance
+
+* reduce time complexity
+
+* Manhatten distance -> when we
+want to find vertical and horizontal
+distance
+
+* in 8-puzzle problem,if you do
+blind search then 3 ki power 20 
+searches possible hn

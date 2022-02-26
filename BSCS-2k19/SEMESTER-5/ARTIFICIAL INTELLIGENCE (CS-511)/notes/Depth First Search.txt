@@ -1,0 +1,47 @@
+DFS(DEPTH FIRST SEARCH):
+* blind or bruteforce 
+technique
+* Uniformed Search 
+technique
+* stack (LIFO)
+* deepest node
+* incomplete ( it is 
+possible it will not
+give solution when
+search space is infinite )
+* non optimal
+* time complexity
+* only present knowledge
+not domain level 
+knowledge
+* work on deepest node
+* it will go in deep down
+a particular node if 
+desired node not found 
+then it will do backtrack
+and go in another 
+direction 
+* in stack , we will
+add element to the end
+of stack and remove 
+element from the end of
+stack
+
+* time complexity:
+O(V + E)
+where
+v -> no. of nodes
+e -> no. of edges
+
+Time Complexity of DFS
+in AI:
+
+O(b ki power d)
+where
+b -> branching factor(
+no. of children of 
+specific node)
+d -> depth
+
+* only applicable when
+cost of each node is same
