@@ -1,0 +1,15 @@
+* Timer
+* Threads
+* exception handling
+* relaitve layout and linear layout attributes
+* radio button and check box implementation
+* vector creation in android studio
+* typecasting
+* inheritence, polymorphism, interfaces
+* super, final, abstract, static
+* Building blocks of android app
+* intents (also usage) and intent filters
+* firebase and its implementation(authentication, database operations)
+* activity lifecycle
+* shared preferences
+* OnClick listener
