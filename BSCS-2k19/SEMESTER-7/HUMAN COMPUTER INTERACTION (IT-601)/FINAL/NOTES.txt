@@ -1,0 +1,21 @@
+Interaction design is the process of designing the way in which people interact with products, services, and systems. It is a key aspect of user experience design and involves creating interfaces that are intuitive, efficient, and enjoyable for users.
+
+Here are some basic principles of interaction design:
+
+User-centered design: Interaction design should prioritize the needs and goals of the user.
+
+Functionality: The design should enable users to accomplish their goals effectively and efficiently.
+
+Usability: The design should be easy to understand and use.
+
+Accessibility: The design should be accessible to users with disabilities.
+
+Feedback: The design should provide clear feedback to the user about their actions and the system's response.
+
+Consistency: The design should be consistent across different parts of the system, to reduce confusion and improve usability.
+
+Flexibility: The design should allow for flexibility and customization by the user.
+
+Aesthetics: The design should be visually appealing and create a positive emotional response in the user.
+
+By considering these principles, interaction designers can create interfaces that are effective and enjoyable for users.

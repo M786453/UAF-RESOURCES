@@ -1,0 +1,39 @@
+ATTRIBUTE:
+An attribute represent any uaxlity e.g, A string, type or memory location.
+
+SYNTAX DIRECTED TRANSLATION:
+
+A syntax directed definition specified the transalation of a construct in terms of attributes associated with its syntatic components.
+
+POSTFIX NOTATION:
+
+The postfix notation of an expression E can be defined as follows:
+
+1. If E is a variable or constant, then postfix notaiton for E is E itself.
+2. If E is an expression of the form E1 OP E2, where OP is any binary operation, then postfix notaton for E is E1E2OP, where E1 and E2 are the postfix notation of E1 and E2 respectively.
+3. If E is an expression of the form (E1), then the postfix notation for E1 is also the postfix notation for E.
+
+No parenthesis are needed in postfix notation because the position and arity (number of arguments) of the operators permits only one decoding of a postfix notation. 
+
+SYNTAX DIRECTED DEFINITION:
+
+SYNTAX DIRECTED DEFINITION = Grammar + Set of semantic Rules
+
+1. It uses context-free grammar to to specify the syntatic structure of the input.
+2. With each grammar symbol, it associates set of attributes.
+3. With each production, it asociates set of semantic rules for computing the values of attributes associated with symbols appearing in that production.
+
+A translation is an input-output mapping.
+
+If x is a symbol at a node n in parse tree, then x.a will be the value attribute of symbol x. The value of x.a can be computed using the semantic rule for attribute a associated with production-x used at node n. 
+
+ANNOTATED PARSE TREE:
+
+A parse tree showing attribute values at each node is called ANNOTATED PARSE TREE.
+
+SYNTHESIZED ATTRIBUTES:
+
+An attribute is synthesized if it's value at a parse tree node is determined from attribute values at the children of the node.
+
+They can be evaluated using a single bottom-up traversal.
+

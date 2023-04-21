@@ -1,0 +1,9 @@
+29-12-22 == Thursday == HCI
+
+02-01-23 == Monday  == Compiler Construction
+
+04-01-23 == Wednesday == Automata
+
+06-01-23 == Friday	    == Graph Theory
+
+10-01-23 == Tuesday == HRM

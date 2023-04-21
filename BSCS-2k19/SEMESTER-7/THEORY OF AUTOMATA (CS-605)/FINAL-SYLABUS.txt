@@ -1,0 +1,9 @@
+1. Finite Automata
+- Deterministic Finite Automata
+- Non-deterministic Finite Automata
+2. Transition Graph
+3. Generalized Transition Graph
+4. Moore Machine
+5. Mealy Machine
+6. Complementing Machine
+7. incremental machine
