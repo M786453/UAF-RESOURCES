@@ -1,0 +1,7 @@
+Requirements for submission of FYP:
+
+* Hackathon certificate
+* Internship experience letter
+* Internship report
+* technical report
+* apk file
